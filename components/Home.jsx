@@ -1,4 +1,4 @@
-
+/* | Home.jsx | FATIMAH MOHAMMED RANA | 301342519 | SEPT 27 2024 */
 import React from 'react';
 import {Link} from 'react-router-dom';
 

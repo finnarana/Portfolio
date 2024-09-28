@@ -1,3 +1,4 @@
+//| MainRouter.jsx | FATIMAH MOHAMMED RANA | 301342519 | SEPT 27 2024 |
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'

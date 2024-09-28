@@ -1,3 +1,4 @@
+/* | about.jsx | FATIMAH MOHAMMED RANA | 301342519 | SEPT 27 2024 */
 import React from "react";
 import resumePDF from "/Users/fatimahrana/Desktop/school/CC_sem3/COMP229-002-F24/assignment01/client/public/resume.pdf";
 
