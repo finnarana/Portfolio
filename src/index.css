@@ -1,0 +1,300 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#paragraph {
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+a {
+  font-weight: 500;
+  color: #7606ff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #fff200;
+}
+
+
+#favicon {
+  position: absolute; 
+  width: 65px;
+  top: 15px; 
+  left: 240px; 
+}
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url('darkStars.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+#regret {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px; 
+  height: 400px; 
+}
+#quote {
+  font-family: "Lucida Console",;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+#title {
+  font-family: "Lucida Console", ;
+  font-size: 55px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 20px 0;
+  line-height: 1;
+
+}
+#miracles {
+  font-family: "Lucida Console", monospace;
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px 0;
+  line-height: 1.5;
+
+}
+#mercy {
+  font-family: "Lucida Console", monospace;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px 0;
+  line-height: 1.5;
+
+}
+#link {
+  font-family: "Lucida Console",;;
+  font-size: 30px;
+  font-weight: bold;
+  color: #7606ff;
+  position: absolute; 
+  top: 700px; 
+  left: 10px; 
+  line-height: 1;
+
+}
+link:hover {
+  color: #fff200;
+}
+#jobtitle {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #7606ff;
+}
+
+#name {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+}
+#resume {
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 300px;
+}
+
+.portrait {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portrait {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  top: 0;
+  left: 0;
+}
+
+.about-me {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.2em;
+  padding: 0 20px;
+  font-family: 'Arial', sans-serif;
+  color: #eaeaea;
+  line-height: 1.6;
+}
+
+h2 {
+  line-height: 1.1;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #898fff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #000000;
+    background-color: #000000;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+nav {
+float:right;
+font-size:x-large;
+}
+
+#fieldset {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+}
+
+#firstNameLabel, #lastNameLabel, #contactNumberLabel, #emailLabel, #messageLabel {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#firstName, #lastName, #contactNumber, #email, #message {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#contactInfo {
+  text-align: center;
+  margin-bottom: 20px;
+  border: 2px solid #6f00ff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    background-color: #000000;
+}
+
+#contactInfo h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#contactInfo p {
+  margin: 5px 0;
+}
+
+#bugsmasher {
+  position: absolute;
+  top: 220px;
+  left: 400px;
+  width: 650px;
+  height: 350px;
+  border: 2px solid #ffffff;
+}
+#bugDescription {
+  text-align: center;
+  margin-top: 400px;
+  font-size: 1.2em;
+  padding: 0 20px;
+  font-family: 'Arial', sans-serif;
+  color: #eaeaea;
+  line-height: 1.6;
+}
+#slideshow {
+  position: absolute;
+  top: 720px;
+  left: 400px;
+  width: 650px;
+  height: 350px;
+  border: 2px solid #ffffff;
+}
+#slideshowDescription {
+  text-align: center;
+  margin-top: 420px;
+  font-size: 1.2em;
+  padding: 0 20px;
+  font-family: 'Arial', sans-serif;
+  color: #eaeaea;
+  line-height: 1.6;
+}
+#calculator {
+  position: absolute;
+  top: 1250px;
+  left: 400px;
+  width: 650px;
+  height: 350px;
+  border: 2px solid #ffffff;
+}
+#calcDescription {
+  text-align: center;
+  margin-top: 420px;
+  font-size: 1.2em;
+  padding: 0 20px;
+  font-family: 'Arial', sans-serif;
+  color: #eaeaea;
+  line-height: 1.6;
+}
+#vid {
+  position: absolute;
+  top: 1720px;
+  left: 400px;
+  width: 650px;
+  height: 350px;
+  border: 2px solid #ffffff;
+}
